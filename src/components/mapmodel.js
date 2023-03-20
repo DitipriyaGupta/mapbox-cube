@@ -11,7 +11,7 @@ const MapModel = () => {
   const { url1, url2 } = getImageURL(lng, lat, zoom);
 
   return (
-    <div className="container">
+    <div className="container3">
       <ThreeDContainer url1={url1} url2={url2} />
       <Button text="Go to Map" linkto="/" />
     </div>
