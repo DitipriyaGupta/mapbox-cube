@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <header className="App-header">
-          <h3>MapCube</h3>
+          <h3>Mapbox-Cube by Ditipriya</h3>
         </header>
         <Routes>
           <Route path="/" element={<MapContainer />} />
